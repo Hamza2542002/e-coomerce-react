@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { FaShoppingCart } from 'react-icons/fa'
-import { IoMdSearch } from 'react-icons/io'
+import { IoIosPlay, IoMdSearch } from 'react-icons/io'
 
 const Navbar = () => {
   const [theme , setTheme] = useState('light')
@@ -25,12 +25,13 @@ const Navbar = () => {
                 <li><a href="#" className='text-gray-500 hover:text-gray-900 font-semibold px-4 dark:hover:text-white duration-200'>Shop</a></li>
                 <li><a href="#" className='text-gray-500 hover:text-gray-900 font-semibold px-4 dark:hover:text-white duration-200'>About</a></li>
                 <li><a href="#" className='text-gray-500 hover:text-gray-900 font-semibold px-4 dark:hover:text-white duration-200'>Blogs</a></li>
-                <li className='text-gray-500 hover:text-gray-900 font-semibold px-4 dark:hover:text-white duration-200'>
-                  <a href="#"> Quik Links </a>
-                  <ul className='text-start hidden'>
-                    <li>Trending Products</li>
-                    <li>Best Selling</li>
-                    <li>Top Rated</li>
+                <li className='text-gray-500  relative group font-semibold px-4 duration-200'>
+                  <a href="#"  className='flex items-center gap-1 hover:text-gray-900 dark:hover:text-white relative z-10'> Quik Links <IoIosPlay className='group-hover:-rotate-90 rotate-90 duration-200' /></a>
+                  <ul className='bg-white dark:bg-gray-900 px-2 py-2 rounded-lg text-start opacity-0 absolute top-full -translate-y-12 w-52 left-0 group-hover:block group-hover:opacity-100 hover:opacity-100 duration-200'>
+                    <li className='text-gray-500 cursor-pointer  hover:bg-[#f42c3733] font-semibold px-2 py-2 dark:hover:text-white duration-200 rounded-lg my-1 opacity-0'>Trending Products</li>
+                    <li className='text-gray-500 cursor-pointer  hover:bg-[#f42c3733] font-semibold px-2 py-2 dark:hover:text-white duration-200 rounded-lg my-1'>Trending Products</li>
+                    <li className='text-gray-500 cursor-pointer  hover:bg-[#f42c3733] font-semibold px-2 py-2 dark:hover:text-white duration-200 rounded-lg my-1'>Best Selling</li>
+                    <li className='text-gray-500 cursor-pointer  hover:bg-[#f42c3733] font-semibold px-2 py-2 dark:hover:text-white duration-200 rounded-lg my-1'>Top Rated</li>
                   </ul>
                 </li>
               </ul>
