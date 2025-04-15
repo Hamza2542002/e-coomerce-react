@@ -67,29 +67,29 @@ function Category() {
         <div className='flex gap-5 items-center'>
           <div className="icon"><FaCarSide className='text-5xl text-secondary' /></div>
           <div className="">
-            <h1 className='font-semibold dark:text-white'>Free Shipping</h1>
-            <p className='opacity-50 font-thin text-white'>Free Shipping On All Order</p>
+            <h1 className='font-bold text-xl dark:text-white'>Free Shipping</h1>
+            <p className='opacity-50 font-thin text-gray-600 dark:text-gray-100'>Free Shipping On All Order</p>
           </div>
         </div>
         <div className='flex gap-5 items-center'>
           <div className="icon"><FaCheckCircle className='text-5xl text-secondary' /></div>
           <div className="">
-            <h1 className='font-semibold dark:text-white'>Free Shipping</h1>
-            <p className='opacity-50 font-thin text-white'>Free Shipping On All Order</p>
+            <h1 className='font-bold text-xl dark:text-white'>Free Shipping</h1>
+            <p className='opacity-50 font-thin textgray-600 dark:text-gray-100'>Free Shipping On All Order</p>
           </div>
         </div>
         <div className='flex gap-5 items-center'>
           <div className="icon"><FaWallet className='text-5xl text-secondary' /></div>
           <div className="">
-            <h1 className='font-semibold dark:text-white'>Free Shipping</h1>
-            <p className='opacity-50 font-thin text-white'>Free Shipping On All Order</p>
+            <h1 className='font-bold text-xl dark:text-white'>Free Shipping</h1>
+            <p className='opacity-50 font-thin text-gray-600 dark:text-gray-100'>Free Shipping On All Order</p>
           </div>
         </div>
         <div className='flex gap-5 items-center'>
           <div className="icon"><FaHeadphonesSimple className='text-5xl text-secondary' /></div>
           <div className="">
-            <h1 className='font-semibold dark:text-white'>Free Shipping</h1>
-            <p className='opacity-50 font-thin text-white'>Free Shipping On All Order</p>
+            <h1 className='font-bold text-xl dark:text-white'>Free Shipping</h1>
+            <p className='opacity-50 font-thin text-gray-600 dark:text-gray-100'>Free Shipping On All Order</p>
           </div>
         </div>
       </div>
