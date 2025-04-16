@@ -42,14 +42,14 @@ const Hero = () => {
                 <div className='flex justify-center items-center min-h-[500px]'>
                   <div className='grid grid-cols-1 sm:grid-cols-2 gap-12 justify-between sm:justify-center'>
                     <div className='flex flex-col items-center sm:justify-start sm:items-start gap-4 relative order-2 sm:order-1'>
-                      <h3 className='font-bold text-2xl text-gray-900 dark:text-white'>{data.title}</h3>
-                      <h1 className='font-bold text-4xl sm:text-7xl text-gray-900 dark:text-white'>{data.subTitle}</h1>
-                      <h1  className='font-bold text-4xl sm:text-7xl lg:text-9xl  text-white'>{data.Name}</h1>
-                      <button className='px-8 py-2 rounded-full bg-primary text-white duration-200 hover:scale-105 translate-x-2'>Shop By Category</button>
+                      <h3 data-aos="zoom-out" data-aos-duration="500" data-aos-once="true" className='font-bold text-2xl text-gray-900 dark:text-white'>{data.title}</h3>
+                      <h1 data-aos="zoom-out" data-aos-duration="500" data-aos-once="true" className='font-bold text-4xl sm:text-7xl text-gray-900 dark:text-white'>{data.subTitle}</h1>
+                      <h1 data-aos="zoom-in" data-aos-duration="500" data-aos-once="true" className='font-bold text-4xl sm:text-7xl lg:text-9xl  text-white dark:text-black dark:text-opacity-35'>{data.Name}</h1>
+                      <button data-aos="fade-up" data-aos-offset="0" data-aos-duration="500" data-aos-dalay="300" className='px-8 py-2 rounded-full bg-primary text-white duration-200 hover:scale-105 translate-x-2'>Shop By Category</button>
                     </div>
-                    <div className="order-1 sm:order-2 relative z-10 px-10">
+                    <div data-aos="zoom-in" data-aos-once="true" className="order-1 sm:order-2 relative z-10 px-10">
                       <img src={`../../public/${data.Name}.png`} alt="" 
-                      className='w-[350px] h-[183px]  sm:h-[350px] sm:scale-105 lg:scale-125 object-contain drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]' />
+                      className='w-[350px] h-[183px]  sm:h-[350px] sm:scale-105 lg:scale-150 object-contain drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]' />
                     </div>
                   </div>
                 </div> 
