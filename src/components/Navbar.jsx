@@ -45,8 +45,8 @@ const Navbar = () => {
             </div>
             <a href=""><FaShoppingCart className='block right-0 text-gray-500 dark:bg-gray-900 font-bold' /></a>
             <button>
-              <img onClick={()=> setTheme('light')} className='w-12 hidden dark:block duration-75' src="../public/dark-mode-button-85jBkhOs.png" alt="" />
-              <img onClick={()=> setTheme('dark')} className='w-12 block dark:hidden duration-75' src="../public/light-mode-button-X4OXHFfW.png" alt="" />
+              <img onClick={()=> setTheme('light')} className='w-12 hidden dark:block duration-75' src="/assets/dark-mode-button-85jBkhOs.png" alt="" />
+              <img onClick={()=> setTheme('dark')} className='w-12 block dark:hidden duration-75' src="/assets/light-mode-button-X4OXHFfW.png" alt="" />
             </button>
           </div>
         </div>
