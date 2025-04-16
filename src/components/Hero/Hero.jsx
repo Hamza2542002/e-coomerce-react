@@ -48,7 +48,7 @@ const Hero = () => {
                       <button data-aos="fade-up" data-aos-offset="0" data-aos-duration="500" data-aos-dalay="300" className='px-8 py-2 rounded-full bg-primary text-white duration-200 hover:scale-105 translate-x-2'>Shop By Category</button>
                     </div>
                     <div data-aos="zoom-in" data-aos-once="true" className="order-1 sm:order-2 relative z-10 px-10">
-                      <img src={`../../src/assets/${data.Name}.png`} alt="" 
+                      <img src={`src/assets/${data.Name}.png`} alt="" 
                       className='w-[350px] h-[183px]  sm:h-[350px] sm:scale-105 lg:scale-150 object-contain drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]' />
                     </div>
                   </div>
