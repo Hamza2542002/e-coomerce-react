@@ -10,7 +10,7 @@ export default function Offer() {
         <h5 data-aos="fade-up" >10 Jan to 28 Jan</h5>
       </div>
       <div data-aos-once="true" data-aos="zoom-in" className='h-full flex justify-center items-center aos-animate'>
-        <img src="../public/HEADPHONE.png"  className='scale-125 w-[250px] md:w-[340px] object-cover  drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]' alt="" />
+        <img src="/assets/HEADPHONE.png"  className='scale-125 w-[250px] md:w-[340px] object-cover  drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]' alt="" />
       </div>
       <div className='text-white md:w-1/3 flex flex-col items-start gap-4'>
         <h1 data-aos="slide-right" className='font-semibold text-lg'>Air Solo Bass</h1>

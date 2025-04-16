@@ -13,7 +13,7 @@ function Category() {
             <p className='text-gray-300 opacity-50 font-bold text-5xl'>Earphone</p>
             <button className='text-white bg-secondary px-8 py-2 rounded-full mt-4 w-fit hover:scale-105 cursor-pointer relative z-10 duration-150'>Browse</button>
           </div>
-          <img src="src/assets/earphone.png" alt="" className='absolute right-0 -bottom-0 w-[320px] z-0'/>
+          <img src="/assets/earphone.png" alt="" className='absolute right-0 -bottom-0 w-[320px] z-0'/>
         </div>
         <div className='overflow-hidden bg-gradient-to-b from-brandYellow to-brandYellow/90 rounded-2xl p-3 px-5 relative flex items-center h-80'>
           <div className="text relative flex flex-col gap-0 mt-6">
@@ -22,7 +22,7 @@ function Category() {
             <p className='text-white opacity-50 font-bold text-5xl'>Gadget</p>
             <button className='text-brandYellow bg-white px-8 py-2 rounded-full mt-4 w-fit hover:scale-105 cursor-pointer relative z-10 duration-200'>Browse</button>
           </div>
-          <img src="src/assets/watch.png" alt="" className='absolute -right-10 top-1/2 -translate-y-1/2 w-[320px] z-0'/>
+          <img src="/assets/watch.png" alt="" className='absolute -right-10 top-1/2 -translate-y-1/2 w-[320px] z-0'/>
         </div>  
         <div className='overflow-hidden bg-gradient-to-b from-secondary to-secondary/90 rounded-2xl p-3 px-5 relative flex items-center h-80 sm:col-span-2'>
           <div className="text relative flex flex-col gap-0 mt-6">
@@ -31,7 +31,7 @@ function Category() {
             <p className='text-white opacity-50 font-bold text-5xl'>Laptop</p>
             <button className='text-secondary bg-white px-8 py-2 rounded-full mt-4 w-fit hover:scale-105 cursor-pointer relative z-10 duration-200'>Browse</button>
           </div>
-          <img src="src/assets/LAPTOPS.png" alt="" className='absolute -right-0 scale-90 top-1/2 -translate-y-1/2 w-[250px] sm:w-[320px] z-0'/>
+          <img src="/assets/LAPTOPS.png" alt="" className='absolute -right-0 scale-90 top-1/2 -translate-y-1/2 w-[250px] sm:w-[320px] z-0'/>
         </div>
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-4'>
@@ -42,7 +42,7 @@ function Category() {
             <p className='text-white opacity-50 font-bold text-5xl'>Gaming</p>
             <button className='text-white bg-secondary px-8 py-2 rounded-full mt-4 w-fit hover:scale-105 cursor-pointer relative z-10 duration-150'>Browse</button>
           </div>
-          <img src="src/assets/gaming.png" alt="" className='absolute right-0 bottom-0 w-[300px] sm:w-[320px] z-0 scale-75'/>
+          <img src="/assets/gaming.png" alt="" className='absolute right-0 bottom-0 w-[300px] sm:w-[320px] z-0 scale-75'/>
         </div>
         <div className='overflow-hidden bg-gradient-to-b from-brandGreen to-brandGreen/90 rounded-2xl p-3 px-5 relative flex items-center h-80'>
           <div className="text relative flex flex-col gap-0 mt-6">
@@ -51,7 +51,7 @@ function Category() {
             <p className='text-white opacity-50 font-bold text-5xl'>Virtuals</p>
             <button className='text-brandYellow bg-white px-8 py-2 rounded-full mt-4 w-fit hover:scale-105 cursor-pointer relative z-10 duration-200'>Browse</button>
           </div>
-          <img src="src/assets/VIRTUALS.png" alt="" className='absolute bottom-0 right-0-translate-y-1/2 w-[320px] z-0'/>
+          <img src="/assets/VIRTUALS.png" alt="" className='absolute bottom-0 right-0-translate-y-1/2 w-[320px] z-0'/>
         </div>
         <div className='overflow-hidden bg-gradient-to-b from-brandBlue to-brandBlue/90 rounded-2xl p-3 px-5 relative flex items-center h-80'>
           <div className="text relative flex flex-col gap-0 mt-6">
@@ -60,7 +60,7 @@ function Category() {
             <p className='text-white opacity-50 font-bold text-5xl'>Laptop</p>
             <button className='text-secondary bg-white px-8 py-2 rounded-full mt-4 w-fit hover:scale-105 cursor-pointer relative z-10 duration-200'>Browse</button>
           </div>
-          <img src="src/assets/speaker.png" alt="" className='absolute  right-0 bottom-0  w-[200px] z-0'/>
+          <img src="/assets/speaker.png" alt="" className='absolute  right-0 bottom-0  w-[200px] z-0'/>
         </div>
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10'>
